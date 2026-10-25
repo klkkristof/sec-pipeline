@@ -104,6 +104,10 @@ A támadások negyede **átfogalmazott** szöveg, feketelistás kifejezés nélk
 ## Telepítés
 
 ```
+python -m venv .venv
+
+.venv/Scripts/Activate.ps1 (ezek win környezetbe)
+
 pip install -r requirements.txt
 ```
 
