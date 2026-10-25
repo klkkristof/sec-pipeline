@@ -1,0 +1,26 @@
+# Tiltott kifejezések listája (prompt injection minták) - ERŐS kifejezések
+# Ha bármelyik szerepel a képen, azonnal blokkolunk.
+# Soronként egy kifejezés. Ékezet nélkül és kisbetűvel kell írni,
+# mert a normalizálás is így alakítja a szöveget! A '#'-kal kezdődő sorok kommentek.
+
+# --- angol ---
+ignore previous instructions
+ignore all previous
+ignore the above
+disregard previous
+disregard the above
+forget everything
+forget your instructions
+print your instructions
+reveal your instructions
+jailbreak
+system override
+system_override
+
+# --- magyar ---
+hagyd figyelmen kivul
+felejtsd el az eddigi
+felejts el mindent
+korabbi utasitas
+elozo utasitas
+ird ki az utasitasaidat

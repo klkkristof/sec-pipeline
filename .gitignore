@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+
+# Elemzési eredmények (a mappa maga a .gitkeep miatt megmarad)
+data/output/*
+!data/output/.gitkeep
+
+# Generált mintaképek (újra előállíthatók: python scripts/generate_samples.py)
+data/samples/clean/*
+!data/samples/clean/.gitkeep
+data/samples/synthetic/*
+!data/samples/synthetic/.gitkeep
+
+# Szerkesztő / rendszer
+.vscode/
+.idea/
+Thumbs.db

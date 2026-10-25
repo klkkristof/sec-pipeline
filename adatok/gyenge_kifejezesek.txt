@@ -1,0 +1,16 @@
+# GYENGE kifejezések: prompt injectionben gyakoriak, de ártalmatlan szövegben is előfordulnak
+# (pl. "You are now subscribed...", "use the ring road to bypass the city").
+# Egy találat csak részpontot ér (config.PONT_GYENGE_EGYEZES) -> karantén,
+# kettő vagy több, vagy más gyanús jellel együtt már blokkolás.
+# Ezeket a mérés alapján vettük át a feketelistáról (csapda képek: 100% téves riasztás).
+
+you are now
+bypass
+system prompt
+do not follow
+new instructions
+developer mode
+rendszerprompt
+mostantol te vagy
+uj utasitas
+ne kovesd

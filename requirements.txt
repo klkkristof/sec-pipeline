@@ -1,0 +1,6 @@
+pillow>=10.1
+pytesseract
+pytest>=7        # tesztekhez
+matplotlib       # a kiértékelés grafikonjaihoz
+numpy            # zaj a robusztussági méréshez
+openpyxl         # a táblázatok Excel-exportjához
