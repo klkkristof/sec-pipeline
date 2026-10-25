@@ -104,6 +104,8 @@ A támadások negyede **átfogalmazott** szöveg, feketelistás kifejezés nélk
 ## Telepítés
 
 ```
+git clone a repót
+
 python -m venv .venv
 
 .venv/Scripts/Activate.ps1 (ezek win környezetbe)
