@@ -77,7 +77,14 @@ ABLACIOS_BEALLITASOK = {
         (lambda k: k == '0_eredeti', normalize_text, ()),
     'Kontrasztjavítás és színcsatornák nélkül':
         (lambda k: not k.endswith(KONTRASZT + CSATORNAK), normalize_text, ()),
+    # Csak az alfa csatorna OCR-je marad ki, a fehér (0_) és fekete (1_) hátterű változatok megmaradnak
     'Alfa csatorna vizsgálata nélkül':
+        (lambda k: k != 'alfa_csatorna', normalize_text, ()),
+    # Külön mérés: a fekete háttérre helyezett változatok (1_) elhagyása
+    'Fekete háttér nélkül':
+        (lambda k: not k.startswith('1_'), normalize_text, ()),
+    # Mindkettő egyszerre: csak a fehér hátterű (0_) változatok maradnak
+    'Alfa csatorna és fekete háttér nélkül':
         (lambda k: k.startswith('0_'), normalize_text, ()),
     'Lekicsinyítés nélkül':
         (lambda k: '_le_' not in k, normalize_text, ()),
