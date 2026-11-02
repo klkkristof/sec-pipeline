@@ -176,8 +176,8 @@ def save_tables(fajl, adat):
                 ['Konfiguráció', 'F1-score (csak blokkolás)', 'Változás a teljes rendszerhez képest',
                  'Recall', 'Téves riasztás (FPR)', 'F1-score (blokkolás vagy karantén)'],
                 sorok, [40, 14, 16, 10, 14, 18],
-                'Minden sorban pontosan egy modul van kikapcsolva. „Unicode-normalizálás nélkül”: a szöveget csak '
-                'kisbetűsítjük, ékezet-eltávolítás és szóköz-összevonás nélkül.',
+                'Minden sorban pontosan egy modul van kikapcsolva, kivéve az „Alfa csatorna és fekete háttér nélkül” '
+                'sort, ahol a kettő együtt. „Unicode-normalizálás nélkül”: a szöveget csak ',
                 szam_formatum={1: '0.00', 2: '+0.00;-0.00;0.00', 3: '0.00', 4: '0.00', 5: '0.00'})
 
     # --- 4.6 Robusztusság ---
